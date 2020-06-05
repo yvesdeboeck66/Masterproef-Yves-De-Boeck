@@ -1,0 +1,406 @@
+
+Blender killed
+9M (0.00M, Peak 1073.94M) | Time:00:01.83 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | car0
+Fra:44 Mem:960.49M (0.00M, Peak 1073.94M) | Time:00:02.20 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | car1
+Fra:44 Mem:979.80M (0.00M, Peak 1076.99M) | Time:00:02.57 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | car2
+Fra:44 Mem:999.10M (0.00M, Peak 1096.29M) | Time:00:02.94 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | car3
+Fra:44 Mem:1018.40M (0.00M, Peak 1115.60M) | Time:00:03.29 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | car4
+Fra:44 Mem:1037.71M (0.00M, Peak 1134.90M) | Time:00:03.67 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | car5
+Fra:44 Mem:1057.01M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000004.001
+Fra:44 Mem:1057.01M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000003.001
+Fra:44 Mem:1057.01M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000002.001
+Fra:44 Mem:1057.01M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000001.001
+Fra:44 Mem:1057.01M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000000.001
+Fra:44 Mem:1057.01M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000038
+Fra:44 Mem:1057.01M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000039
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000040
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000041
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000042
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000043
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000044
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000045
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000046
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000047
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000048
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000049
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000050
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000051
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000052
+Fra:44 Mem:1057.02M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000053
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000054
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000055
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000056
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000057
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000058
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000059
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.04 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000060
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000061
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000062
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000063
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000064
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000065
+Fra:44 Mem:1057.03M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000066
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000067
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000068
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000069
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000070
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000071
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000072
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000073
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000074
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000075
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000076
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000077
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000078
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000079
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000080
+Fra:44 Mem:1057.04M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000081
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000082
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000083
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000084
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000085
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000086
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000087
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000088
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000089
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000090
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000091
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000092
+Fra:44 Mem:1057.05M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000093
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000094
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000095
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000096
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000097
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000098
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000099
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000100
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000101
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000102
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.05 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000103
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000104
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000105
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000106
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000107
+Fra:44 Mem:1057.06M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000108
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000109
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000110
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000111
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000112
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000113
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000114
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000115
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000116
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000117
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000118
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000119
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000120
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000121
+Fra:44 Mem:1057.07M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000122
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000123
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000124
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000125
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000126
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000127
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000128
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000129
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000130
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000131
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000132
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000133
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000134
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000135
+Fra:44 Mem:1057.08M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000136
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000137
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000138
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000139
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000140
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000141
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000142
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000143
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000144
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.06 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000145
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000146
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000147
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000148
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000149
+Fra:44 Mem:1057.09M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000150
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000151
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000152
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000153
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000154
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000155
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000156
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000157
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000158
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000159
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000160
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000161
+Fra:44 Mem:1057.10M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000162
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000163
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000164
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000165
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000166
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000167
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000168
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000169
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000170
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000171
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000172
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000173
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000174
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000175
+Fra:44 Mem:1057.11M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000176
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000177
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000178
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000179
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000180
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000181
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000182
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000183
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000184
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000185
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.07 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000186
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.08 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000187
+Fra:44 Mem:1057.12M (0.00M, Peak 1154.20M) | Time:00:04.08 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | car.001
+Fra:44 Mem:1059.73M (0.00M, Peak 1154.20M) | Time:00:04.11 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | car.002
+Fra:44 Mem:1060.77M (0.00M, Peak 1154.20M) | Time:00:04.11 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | car.003
+Fra:44 Mem:1061.52M (0.00M, Peak 1154.20M) | Time:00:04.11 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | 0000000000
+Fra:44 Mem:1061.52M (0.00M, Peak 1154.20M) | Time:00:04.11 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Synchronizing object | test
+Fra:44 Mem:1061.52M (0.00M, Peak 1154.20M) | Time:00:04.11 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Initializing
+Fra:44 Mem:725.09M (0.00M, Peak 1154.20M) | Time:00:04.12 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Waiting for render to start
+Fra:44 Mem:725.09M (0.00M, Peak 1154.20M) | Time:00:04.12 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Loading render kernels (may take a few minutes the first time)
+Fra:44 Mem:725.09M (0.00M, Peak 1154.20M) | Time:00:04.12 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Scene
+Fra:44 Mem:725.09M (0.00M, Peak 1154.20M) | Time:00:04.12 | Mem:0.00M, Peak:0.00M | Scene, RenderLayer | Updating Shaders
+Fra:44 Mem:725.47M (0.00M, Peak 1154.20M) | Time:00:04.13 | Mem:0.11M, Peak:0.11M | Scene, RenderLayer | Updating Background
+Fra:44 Mem:725.47M (0.00M, Peak 1154.20M) | Time:00:04.13 | Mem:0.11M, Peak:0.11M | Scene, RenderLayer | Updating Camera
+Fra:44 Mem:725.47M (0.00M, Peak 1154.20M) | Time:00:04.14 | Mem:0.11M, Peak:0.11M | Scene, RenderLayer | Updating Meshes Flags
+Fra:44 Mem:725.47M (0.00M, Peak 1154.20M) | Time:00:04.14 | Mem:0.11M, Peak:0.11M | Scene, RenderLayer | Updating Objects
+Fra:44 Mem:725.47M (0.00M, Peak 1154.20M) | Time:00:04.14 | Mem:0.11M, Peak:0.11M | Scene, RenderLayer | Updating Objects | Copying Transformations to device
+Fra:44 Mem:725.49M (0.00M, Peak 1154.20M) | Time:00:04.15 | Mem:0.14M, Peak:0.14M | Scene, RenderLayer | Updating Objects | Applying Static Transformations
+Fra:44 Mem:725.49M (0.00M, Peak 1154.20M) | Time:00:04.16 | Mem:0.14M, Peak:0.14M | Scene, RenderLayer | Updating Hair Systems
+Fra:44 Mem:725.49M (0.00M, Peak 1154.20M) | Time:00:04.16 | Mem:0.14M, Peak:0.14M | Scene, RenderLayer | Updating Hair settings | Copying Hair settings to device
+Fra:44 Mem:725.49M (0.00M, Peak 1154.20M) | Time:00:04.16 | Mem:0.14M, Peak:0.14M | Scene, RenderLayer | Updating Particle Systems
+Fra:44 Mem:725.49M (0.00M, Peak 1154.20M) | Time:00:04.16 | Mem:0.14M, Peak:0.14M | Scene, RenderLayer | Updating Particle Systems | Copying Particles to device
+Fra:44 Mem:725.49M (0.00M, Peak 1154.20M) | Time:00:04.16 | Mem:0.14M, Peak:0.14M | Scene, RenderLayer | Updating Meshes
+Fra:44 Mem:760.46M (0.00M, Peak 1154.20M) | Time:00:04.23 | Mem:0.14M, Peak:0.14M | Scene, RenderLayer | Updating Mesh | Computing attributes
+Fra:44 Mem:760.53M (0.00M, Peak 1154.20M) | Time:00:04.23 | Mem:0.16M, Peak:0.16M | Scene, RenderLayer | Updating Mesh | Copying Attributes to device
+Fra:44 Mem:760.50M (0.00M, Peak 1154.20M) | Time:00:04.24 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Building
+Fra:44 Mem:760.50M (0.00M, Peak 1154.20M) | Time:00:04.24 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Building BVH
+Fra:44 Mem:891.63M (0.00M, Peak 1154.20M) | Time:00:04.69 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Building BVH 0%, duplicates 0%
+Fra:44 Mem:891.63M (0.00M, Peak 1154.20M) | Time:00:04.97 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Building BVH 1%, duplicates 0%
+Fra:44 Mem:891.63M (0.00M, Peak 1154.20M) | Time:00:05.22 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Building BVH 16%, duplicates 0%
+Fra:44 Mem:891.63M (0.00M, Peak 1154.20M) | Time:00:05.48 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Building BVH 30%, duplicates 0%
+Fra:44 Mem:891.63M (0.00M, Peak 1154.20M) | Time:00:05.73 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Building BVH 44%, duplicates 0%
+Fra:44 Mem:891.63M (0.00M, Peak 1154.20M) | Time:00:05.98 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Building BVH 57%, duplicates 0%
+Fra:44 Mem:891.63M (0.00M, Peak 1154.20M) | Time:00:06.24 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Building BVH 70%, duplicates 0%
+Fra:44 Mem:891.63M (0.00M, Peak 1154.20M) | Time:00:06.49 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Building BVH 86%, duplicates 0%
+Fra:44 Mem:891.63M (0.00M, Peak 1154.20M) | Time:00:06.87 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Packing BVH triangles and strands
+Fra:44 Mem:1014.01M (0.00M, Peak 1154.20M) | Time:00:06.99 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Packing BVH nodes
+Fra:44 Mem:952.12M (0.00M, Peak 1154.20M) | Time:00:07.10 | Mem:0.18M, Peak:0.18M | Scene, RenderLayer | Updating Scene BVH | Copying BVH to device
+Fra:44 Mem:960.86M (0.00M, Peak 1154.20M) | Time:00:07.11 | Mem:191.79M, Peak:191.79M | Scene, RenderLayer | Updating Mesh | Computing normals
+Fra:44 Mem:1042.57M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:191.79M, Peak:191.79M | Scene, RenderLayer | Updating Mesh | Copying Mesh to device
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.50M, Peak:273.50M | Scene, RenderLayer | Updating Objects Flags
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000004.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000002.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000038.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000001.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000000.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000039.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000040.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000042.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000043.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000041.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000044.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000045.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000047.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000048.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000046.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000049.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000050.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000052.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000053.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000051.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000054.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000055.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000057.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000058.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000056.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000059.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000060.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000062.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000063.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000061.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.13 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000064.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000065.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000067.png
+Fra:44 Mem:1033.83M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000068.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000066.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000069.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000070.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000072.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000073.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000071.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000074.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000075.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000077.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000078.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000076.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000079.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000080.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000082.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000083.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000081.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000084.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000085.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000087.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000088.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000086.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000089.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000090.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000092.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000093.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000091.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000094.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000095.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000097.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000098.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000096.png
+Fra:44 Mem:1033.84M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000099.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000100.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.14 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000102.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000103.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000101.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000104.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000105.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000107.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000106.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000108.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000109.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000110.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000111.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000112.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000113.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000115.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000114.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000116.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000117.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000118.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000119.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000120.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000121.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000122.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000123.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000124.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000125.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000126.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000127.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000128.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000129.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000130.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000131.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000132.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000133.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000134.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000135.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000136.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000137.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000138.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000139.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000140.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000141.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.15 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000142.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000144.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000143.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000145.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000146.png
+Fra:44 Mem:1033.85M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000148.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000149.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000147.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000150.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000151.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000153.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000154.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000152.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000155.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000156.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000158.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000159.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000157.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000160.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000161.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000162.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000163.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000164.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000165.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000167.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000166.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000168.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000169.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000171.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000172.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000170.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000173.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000174.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000175.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000176.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000177.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.16 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000178.png
+Fra:44 Mem:1033.86M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000180.png
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000179.png
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000181.png
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000182.png
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000184.png
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000185.png
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000183.png
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000186.png
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading 0000000187.png
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Images | Loading test.png
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Camera Volume
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.51M, Peak:273.51M | Scene, RenderLayer | Updating Lookup Tables
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.76M, Peak:273.76M | Scene, RenderLayer | Updating Lights
+Fra:44 Mem:1033.87M (0.00M, Peak 1154.20M) | Time:00:07.17 | Mem:273.76M, Peak:273.76M | Scene, RenderLayer | Updating Lights | Computing distribution
+Fra:44 Mem:1037.62M (0.00M, Peak 1154.20M) | Time:00:07.18 | Mem:277.51M, Peak:277.51M | Scene, RenderLayer | Updating Integrator
+Fra:44 Mem:1038.89M (0.00M, Peak 1154.20M) | Time:00:07.18 | Mem:278.79M, Peak:278.79M | Scene, RenderLayer | Updating Film
+Fra:44 Mem:1038.90M (0.00M, Peak 1154.20M) | Time:00:07.19 | Mem:278.54M, Peak:278.79M | Scene, RenderLayer | Updating Lookup Tables
+Fra:44 Mem:1038.90M (0.00M, Peak 1154.20M) | Time:00:07.19 | Mem:278.79M, Peak:278.79M | Scene, RenderLayer | Updating Baking
+Fra:44 Mem:1038.90M (0.00M, Peak 1154.20M) | Time:00:07.19 | Mem:278.79M, Peak:278.79M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:44 Mem:1038.90M (0.00M, Peak 1154.20M) | Time:00:07.19 | Mem:278.79M, Peak:278.79M | Scene, RenderLayer | Updating Device | Writing constant memory | Compiling render kernels
+Fra:44 Mem:1038.90M (0.00M, Peak 1154.20M) | Time:00:07.19 | Mem:278.79M, Peak:278.79M | Scene, RenderLayer | Updating Device | Writing constant memory
+Fra:44 Mem:1038.90M (0.00M, Peak 1154.20M) | Time:00:07.19 | Mem:278.79M, Peak:278.79M | Scene, RenderLayer | Rendered 0/10 Tiles
+Fra:44 Mem:1040.92M (0.00M, Peak 1154.20M) | Time:00:09.86 | Remaining:00:07.12 | Mem:280.83M, Peak:282.83M | Scene, RenderLayer | Rendered 1/10 Tiles
+Fra:44 Mem:1040.92M (0.00M, Peak 1154.20M) | Time:00:10.03 | Remaining:00:06.95 | Mem:280.83M, Peak:282.83M | Scene, RenderLayer | Rendered 2/10 Tiles
+
+Sent an internal break event. Press ^C again to kill Blender
+
+Sent an internal break event. Press ^C again to kill Blender
+Fra:44 Mem:1040.92M (0.00M, Peak 1154.20M) | Time:00:10.66 | Remaining:00:05.78 | Mem:280.83M, Peak:282.83M | Scene, RenderLayer | Rendered 3/10 Tiles
+Fra:44 Mem:1038.91M (0.00M, Peak 1154.20M) | Time:00:10.66 | Remaining:00:05.77 | Mem:278.83M, Peak:282.83M | Scene, RenderLayer | Rendered 4/10 Tiles
+Fra:44 Mem:1038.90M (0.00M, Peak 1154.20M) | Time:00:10.66 | Remaining:00:05.77 | Mem:278.83M, Peak:282.83M | Scene, RenderLayer | Cancel | Cancelled
+Fra:44 Mem:605.04M (0.00M, Peak 1154.20M) | Time:00:10.67 | Sce: Scene Ve:0 Fa:0 La:0
+154.20M) | Time:00:14.80 | Mem:278.75M, Peak:282.75M | Scene, RenderLayer | Rendered 10/10 Tiles
+Fra:44 Mem:1038.83M (0.00M, Peak 1154.20M) | Time:00:14.80 | Mem:278.75M, Peak:282.75M | Scene, RenderLayer | Finished
+Fra:44 Mem:605.04M (0.00M, Peak 1154.20M) | Time:00:14.80 | Sce: Scene Ve:0 Fa:0 La:0
+0:14.21 | Remaining:00:00.62 | Mem:279.72M, Peak:282.79M | Scene, RenderLayer | Rendered 8/10 Tiles
+Fra:44 Mem:1039.67M (0.00M, Peak 1154.20M) | Time:00:14.54 | Remaining:00:00.21 | Mem:279.58M, Peak:282.79M | Scene, RenderLayer | Rendered 9/10 Tiles, Sample 62/128
+Fra:44 Mem:1038.87M (0.00M, Peak 1154.20M) | Time:00:14.77 | Mem:278.79M, Peak:282.79M | Scene, RenderLayer | Rendered 10/10 Tiles
+Fra:44 Mem:1038.86M (0.00M, Peak 1154.20M) | Time:00:14.77 | Mem:278.79M, Peak:282.79M | Scene, RenderLayer | Finished
+Fra:44 Mem:605.04M (0.00M, Peak 1154.20M) | Time:00:14.77 | Sce: Scene Ve:0 Fa:0 La:0
+
+:0 La:0
+me:00:14.50 | Mem:277.05M, Peak:281.06M | Scene, RenderLayer | Finished
+Fra:44 Mem:605.04M (0.00M, Peak 1154.20M) | Time:00:14.50 | Sce: Scene Ve:0 Fa:0 La:0
+0
+| Time:00:21.26 | Sce: Scene Ve:0 Fa:0 La:0
+Ve:0 Fa:0 La:0
+.00M, Peak 4168.07M) | Time:00:32.20 | Remaining:00:00.51 | Mem:280.90M, Peak:282.91M | Scene, RenderLayer | Rendered 9/10 Tiles, Sample 110/128
+Fra:44 Mem:4054.85M (0.00M, Peak 4168.07M) | Time:00:33.23 | Remaining:00:00.35 | Mem:280.90M, Peak:282.91M | Scene, RenderLayer | Rendered 9/10 Tiles, Sample 116/128
+Fra:44 Mem:4054.85M (0.00M, Peak 4168.07M) | Time:00:34.24 | Remaining:00:00.18 | Mem:280.90M, Peak:282.91M | Scene, RenderLayer | Rendered 9/10 Tiles, Sample 122/128
+Fra:44 Mem:4054.85M (0.00M, Peak 4168.07M) | Time:00:35.24 | Mem:280.90M, Peak:282.91M | Scene, RenderLayer | Rendered 9/10 Tiles, Sample 128/128
+Fra:44 Mem:4052.85M (0.00M, Peak 4168.07M) | Time:00:35.24 | Mem:278.90M, Peak:282.91M | Scene, RenderLayer | Rendered 10/10 Tiles
+Fra:44 Mem:4052.85M (0.00M, Peak 4168.07M) | Time:00:35.24 | Mem:278.90M, Peak:282.91M | Scene, RenderLayer | Finished
+Fra:44 Mem:3618.91M (0.00M, Peak 4168.07M) | Time:00:35.25 | Sce: Scene Ve:0 Fa:0 La:0
+maining:00:00.09 | Mem:370.45M, Peak:372.45M | Scene, RenderLayer | Rendered 9/10 Tiles, Sample 125/128
+Fra:44 Mem:4016.94M (0.00M, Peak 4137.18M) | Time:00:39.78 | Mem:368.45M, Peak:372.45M | Scene, RenderLayer | Rendered 10/10 Tiles
+Fra:44 Mem:4016.94M (0.00M, Peak 4137.18M) | Time:00:39.78 | Mem:368.45M, Peak:372.45M | Scene, RenderLayer | Finished
+Fra:44 Mem:3443.52M (0.00M, Peak 4137.18M) | Time:00:39.79 | Sce: Scene Ve:0 Fa:0 La:0
