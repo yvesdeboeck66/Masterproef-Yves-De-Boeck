@@ -4,31 +4,13 @@
 ## Techniques used
 * Deep image Harmonization - harmonization technique - [github]( https://github.com/wasidennis/DeepHarmonizationhttps://github.com/wasidennis/DeepHarmonization) - [paper](https://arxiv.org/pdf/1703.00069.pdf)
       
-* GP-GAN - harmonization technique
-
-      github:  https://github.com/wuhuikai/GP-GAN
+* GP-GAN - harmonization technique - [github](github:  https://github.com/wuhuikai/GP-GAN) - [paper](https://arxiv.org/pdf/1703.07195.pdf)
       
-      paper: https://arxiv.org/pdf/1703.07195.pdf
+* RealismCNN - realism evaluation technique - [github](github: https://github.com/junyanz/RealismCNN) - [paper](ttps://arxiv.org/pdf/1510.00477.pdf)      
       
-* RealismCNN - realism evaluation technique
-
-      github: https://github.com/junyanz/RealismCNN
+* YOLOv3 - object detection system - [github](https://github.com/YunYang1994/tensorflow-yolov3) - [paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf)    
       
-      paper: https://arxiv.org/pdf/1510.00477.pdf
-      
-      
-* YOLOv3 - object detection system
-
-      github: https://github.com/YunYang1994/tensorflow-yolov3
-      
-      paper: https://pjreddie.com/media/files/papers/YOLOv3.pdf
-      
-      
-* R-FCN - object detection system
-
-      github: https://github.com/YuwenXiong/py-R-FCN
-      
-      paper: https://arxiv.org/pdf/1605.06409.pdf      
+* R-FCN - object detection system- [github](https://github.com/YuwenXiong/py-R-FCN) - [paper](paper: https://arxiv.org/pdf/1605.06409.pdf)    
  
 ## Requirements
 * Blender2.8 for rendering
