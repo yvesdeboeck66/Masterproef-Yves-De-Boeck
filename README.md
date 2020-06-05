@@ -2,11 +2,7 @@
  This repository contains the source code for my masterthesis "Improving sensor simulation with artificial intelligence". I propose a novel methodology for injecting the presence of simulated vehicles into the camera stream of real vehicles, using deep learning networks to optimize the realism of the resulting frames. This code allows you to paste cars on background images according to your specified coordinates and orientation and consequently harmonize these frames using one of two deep learning harmonization techniques. I also validate the realism of these frames by comparing realism scores outputted by a CNN and by submitting the the frames to two object detection systems. 
  
 ## Techniques used
-* Deep image Harmonization - harmonization technique
-
-      github: https://github.com/wasidennis/DeepHarmonizationhttps://github.com/wasidennis/DeepHarmonization
-      
-      paper: https://arxiv.org/pdf/1703.00069.pdf
+* Deep image Harmonization - harmonization technique - [github]( https://github.com/wasidennis/DeepHarmonizationhttps://github.com/wasidennis/DeepHarmonization) - [paper](https://arxiv.org/pdf/1703.00069.pdf)
       
 * GP-GAN - harmonization technique
 
