@@ -74,7 +74,6 @@ def create_composite(car,mask,background):
     color_mask = cv2.cvtColor(mask,cv2.COLOR_GRAY2RGB)
     background = cv2.subtract(background,color_mask)
     composite = cv2.add(background,car)
-    cv2.imwrite("composite10.png",composite)
     print("composite created")
     return composite
     
@@ -158,6 +157,8 @@ def main():
     parser.add_argument('--mask_image', default='', help='Path for mask image')
     parser.add_argument('--blended_image', default='', help='Where to save blended image')
 
+    parser.add_argument('--car_type', default='rangerover', help='specify the car type')
+
     args = parser.parse_args()
 
     #filename=sys.argv[1]
@@ -185,87 +186,16 @@ def main():
 
     car_image = cv2.imread(args.src_image)
     print(car_image.shape)
-    cam_im_path = 'original/'+args.src_image.split('/')[1]
+    cam_im_path = 'original/'+args.src_image.split('/')[2]
     camera_image = cv2.imread(cam_im_path)
     mask = create_mask(car_image)
+    composite = create_composite(car_image,mask,camera_image)
+    cv2.imwrite('composites/'+args.car_type+'/'+args.src_image.split('/')[2],composite)
     GPGAN_result = harmonize(car_image,camera_image,mask,G,args.image_size,args.gpu, args.color_weight, args.sigma, args.gradient_kernel, args.smooth_sigma, args.supervised, args.nz,args.n_iteration)
 
     #total_result.save('DIH_output/'+filename.split('/')[1])
-    cv2.imwrite('GPGAN_output/'+args.src_image.split('/')[1],GPGAN_result)
+    cv2.imwrite('GPGAN_output/'+args.car_type+'/'+args.src_image.split('/')[2],GPGAN_result)
     
 
-
-# def main():
-#     import sys       # to get command line args
-#     import argparse  # to parse options for us and print a nice help message
-
-#     # get the args passed to blender after "--", all of which are ignored by
-#     # blender so scripts may receive their own arguments
-#     argv = sys.argv
-
-#     if "--" not in argv:
-#         argv = []  # as if no args are passed
-#         filename=sys.argv[1]
-#     else:
-#         argv = argv[argv.index("--") + 1:]  # get all args after "--"
-
-#     # When --help or no args are given, print this help
-#     usage_text = (
-#         "Run blender in background mode with this script:"
-#         "  blender --background --python " + __file__ + " -- [options]"
-#     )
-
-#     parser = argparse.ArgumentParser(description=usage_text)
-
-#     # Example utility, add some text and renders or saves it (with options)
-#     # Possible types are: string, int, long, choice, float and complex.
-#     parser.add_argument(
-#         "-fn", "--file_name", dest="file_name", type=str, required=False,
-#         help="This is the filename of the result",
-#     )
-
-
-#     args = parser.parse_args(argv)  # In this example we won't use the args
-
-
-
-#     if not argv:
-#         #print("warning: no arguments were given, taking default values.")
-#         parser.print_help()
-#         #return
-
-#     if not args.file_name:
-#         # print("warning: --gpu=<bool> not specified, gpu enabled by default.")
-#         args.file_name = "test_rover"
-
-#     #os.system('sudo /content/blender2.82/blender -b kitti_bg_2D.blend -P config_kitti15.py' )
-#     import time
-#     car_image = cv2.imread(filename)
-#     cam_im_path = 'original/'+filename.split('/')[1]
-#     camera_image = cv2.imread(cam_im_path)
-    
-#     car1 = crop_image(car_image,256)
-#     bg1 = crop_image(camera_image,256)
-#     mask1 = create_mask(car1)
-#     composite1 = create_composite(car1,mask1,bg1)
-#     DIH_result1 = harmonize(composite1,mask1)
-    
-#     car2 = crop_image(car_image,621)
-#     bg2 = crop_image(camera_image,621)
-#     mask2 = create_mask(car2)
-#     composite2 = create_composite(car2,mask2,bg2)
-#     DIH_result2 = harmonize(composite2,mask2)
-    
-#     car3 = crop_image(car_image,986)
-#     bg3 = crop_image(camera_image,986)
-#     mask3 = create_mask(car3)
-#     composite3 = create_composite(car3,mask3,bg3)
-#     DIH_result3 = harmonize(composite3,mask3)
-    
-#     total_result = restore_image(DIH_result1,camera_image,0)
-#     total_result = restore_image(DIH_result2,total_result,621)
-#     total_result = restore_image(DIH_result3,total_result,986)
-#     #total_result.save('DIH_output/'+filename.split('/')[1])
-#     cv2.imwrite('DIH_output/'+filename.split('/')[1],total_result)
 if __name__ == "__main__":
     main()

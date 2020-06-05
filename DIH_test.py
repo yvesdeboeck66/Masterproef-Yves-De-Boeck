@@ -1,3 +1,6 @@
+
+import sys 
+sys.path.append('/root/caffe/python')
 import caffe
 import numpy as np
 from PIL import Image
@@ -8,7 +11,7 @@ import cv2
 import numpy as np
 import scipy as sp
 import scipy.ndimage
-import sys 
+
 
 
 print("heeeeeeeeeeeeeeeeeeeeeeeeeeeeey")
@@ -70,7 +73,7 @@ def create_composite(car,mask,background):
     color_mask = cv2.cvtColor(mask,cv2.COLOR_GRAY2RGB)
     background = cv2.subtract(background,color_mask)
     composite = cv2.add(background,car)
-    cv2.imwrite("composite10.png",composite)
+    # cv2.imwrite("composite10.png",composite)
     print("composite created")
     return composite
 
@@ -188,6 +191,7 @@ def main():
     if "--" not in argv:
         argv = []  # as if no args are passed
         filename=sys.argv[1]
+        car_type=sys.argv[2]
     else:
         argv = argv[argv.index("--") + 1:]  # get all args after "--"
 
@@ -223,31 +227,34 @@ def main():
     #os.system('sudo /content/blender2.82/blender -b kitti_bg_2D.blend -P config_kitti15.py' )
     import time
     car_image = cv2.imread(filename)
-    cam_im_path = 'original/'+filename.split('/')[1]
+    cam_im_path = 'original/'+filename.split('/')[2]
     camera_image = cv2.imread(cam_im_path)
     
     car1 = crop_image(car_image,256)
     bg1 = crop_image(camera_image,256)
     mask1 = create_mask(car1)
     composite1 = create_composite(car1,mask1,bg1)
+    cv2.imwrite('composites/'+car_type + '/'+filename.split('/')[2],composite1)
     DIH_result1 = harmonize(composite1,mask1)
     
     car2 = crop_image(car_image,621)
     bg2 = crop_image(camera_image,621)
     mask2 = create_mask(car2)
     composite2 = create_composite(car2,mask2,bg2)
+    cv2.imwrite('composites/'+car_type + '/'+filename.split('/')[2],composite2)
     DIH_result2 = harmonize(composite2,mask2)
     
     car3 = crop_image(car_image,986)
     bg3 = crop_image(camera_image,986)
     mask3 = create_mask(car3)
     composite3 = create_composite(car3,mask3,bg3)
+    cv2.imwrite('composites/'+car_type + '/'+filename.split('/')[2],composite3)
     DIH_result3 = harmonize(composite3,mask3)
     
     total_result = restore_image(DIH_result1,camera_image,256)
     total_result = restore_image(DIH_result2,total_result,621)
     total_result = restore_image(DIH_result3,total_result,986)
     #total_result.save('DIH_output/'+filename.split('/')[1])
-    cv2.imwrite('DIH_output/'+filename.split('/')[1],total_result)
+    cv2.imwrite('DIH_output/'+car_type + '/'+filename.split('/')[2],total_result)
 if __name__ == "__main__":
     main()

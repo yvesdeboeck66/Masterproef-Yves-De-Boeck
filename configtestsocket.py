@@ -16,6 +16,8 @@ sys.path.append(path_to_pillow)
 import numpy as np
 import re
 import shutil
+import socket
+import time
 #from matplotlib import pyplot as plt
 #import cv2
 #import caffe
@@ -354,6 +356,10 @@ def main():
     tracklet_path = "tracklets_labels/"
     filenames = sorted(glob.glob(tracklet_path + '*.txt'))
     framecount = 0;
+    
+#     sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+#     sock.settimeout(10)
+#     sock.connect(('localhost',9999))
 
     #start frame
     for filename in filenames:
@@ -489,14 +495,23 @@ def main():
             if (args.car_type != "pink"):
                 print("Harmonizing...")
                 if (args.blending_method=="GP"):
-                    print("Harmonizing using GP-GAN...")
-                    os.system('python "GPGAN_test.py" --src_image=%s --car_type=%s' % (filepath,args.car_type))
+                    print("Sending command for GP-GAN blending via socket...")
+                    sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+                    sock.settimeout(5)
+                    sock.connect(('localhost',9999))
+                    sock.send(filepath.encode())
+                    #os.system('python "GPGAN_test.py" --src_image=%s --car_type=%s' % (filepath,args.car_type))
                 else:
-                    print("Harmonizing using Deep Image Harmonization...")
-                    os.system('python "DIH_test.py" %s %s' % (filepath,args.car_type))
+                    print("Sending command for Deep Image Harmonization via socket...")
+                    sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+                    sock.settimeout(5)
+                    sock.connect(('localhost',9999))
+                    sock.send(filepath.encode())
+                    #time.sleep(20)
+                    #os.system('python "DIH_test.py" %s %s' % (filepath,args.car_type))
                     #os.system('python "Main.py" %s %s' % (id, value))
-
-            print("Harmonizing complete!")
+            
+            print("Command send! Continuing with next frame...")
             print()
             
         else:
@@ -513,6 +528,7 @@ def main():
             
             
         framecount = framecount + 1
+    sock.close()
     print("done")
 
 if __name__ == "__main__":
