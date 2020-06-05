@@ -1,0 +1,4 @@
+Log file created at: 2020/04/26 13:29:47
+Running on machine: LAPTOP-YV
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+F0426 13:29:47.458250 23300 common.cpp:100] Cannot use GPU in CPU-only Caffe: check mode.
