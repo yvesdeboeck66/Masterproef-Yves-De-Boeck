@@ -22,14 +22,11 @@ All tests were run on Ubuntu18.03 using a AMD Ryzen Threadripper 3970X 32-Core P
 ## Run app
 Follow the following steps to run the app: 
  1) specify location and orientation of desired cars per frame using a label file per frame and put these files in /tracklets_labels
- the tracklets files should containe 1 line per car and have the following format 
- "Car -1 -1 -10 x1 y1 x2 y2 hight width length rotationx rotationy rotationz"
- if you are using kitti recordings you can make use of the matlab script "tracklet_to_label.m" under ./tools/ for extracting the tracklet to the desired label files. 
  2) specify background frames and put them in /original
  3) unzip the "blender.zip" file in ./
  (4) if your are using fast mode run the script of the desired harmonization technique first by 
  
-   `python DIH_fast.py` - For Deep Image Harmonization
+   `python DIH_fast.py` - For Deep Image Harmonization \
    `python GPGAN_fast.py` - For GP-GAN blending
  
  5) run the app using the following command: 
@@ -54,7 +51,21 @@ Use the `--help` argument to get a complete list of possible arguments
 
 6) Results will be written to ./[blending_method]_output/[car_type]/ for normal mode and ./[blending_method]_output/fastmode/ for fast mode. If you used normal mode, the composites will also have been written to ./composites/[car_type]/ before harmonization. 
 
-
+NOTE:  the tracklets files should containe 1 line per car and have the following format 
+ "Car -1 -1 -10 x1 y1 x2 y2 hight width length rotationx rotationy rotationz"
+ if you are using kitti recordings you can make use of the matlab script "tracklet_to_label.m" under ./tools/ for extracting the tracklet to the desired label files. 
+ 
 ## Validate 
-To validate the realism of the generated frames you can run RealismCNN using the matlab function 
+### RealismCNN
+To validate the realism of the generated frames you can run RealismCNN. To compare the realism socres between the generated composites (normal mode) and the corresponding harmonized frames for DIH or GP-GAN, follow these steps. 
+
+1) Download the [models](http://efrosprojects.eecs.berkeley.edu/realism/realismCNN_models.zip) and put them under ./validation/realismCNN/models/
+
+2) Run PredictRealismROC.m 
+
+
+### YOLOv3
+
+### R-FCN
+
 
