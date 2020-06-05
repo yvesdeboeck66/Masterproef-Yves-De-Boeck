@@ -10,7 +10,9 @@
       
 * YOLOv3 - object detection system - [github](https://github.com/YunYang1994/tensorflow-yolov3) - [paper](https://pjreddie.com/media/files/papers/YOLOv3.pdf)    
       
-* R-FCN - object detection system- [github](https://github.com/YuwenXiong/py-R-FCN) - [paper](https://arxiv.org/pdf/1605.06409.pdf)    
+* R-FCN - object detection system- [github](https://github.com/YuwenXiong/py-R-FCN) - [paper](https://arxiv.org/pdf/1605.06409.pdf)   
+
+* PASCAL VOC Challenge - average precision evaluation - [github](https://github.com/rafaelpadilla/Object-Detection-Metrics)
  
 ## Requirements
 * Blender2.8 for rendering
