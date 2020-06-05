@@ -70,9 +70,9 @@ arguments:
  
  e.g. 
  
-exp_name = 'kittimix_redrace_compVSdih';
-dir_comp = 'kitti\composites\redrace';
-dir_har = 'kitti\DIH_output\redrace';
+exp_name = 'kittimix_redrace_compVSdih';  
+dir_comp = 'kitti\composites\redrace';  
+dir_har = 'kitti\DIH_output\redrace';  
 PredictRealismROC(exp_name,dir_comp,dir_har,1,'');
 
 ### YOLOv3
