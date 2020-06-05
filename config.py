@@ -1,4 +1,3 @@
-print("test")
 import bpy
 from math import sqrt
 from math import pi
@@ -10,17 +9,12 @@ from os.path import abspath
 from mathutils import Vector
 import sys
 import argparse
-path_to_pillow = 'C:/Users/yvesk/AppData/Local/Programs/Python/Python37/Lib/site-packages'
-sys.path.append(path_to_pillow)
-#from PIL import Image
 import numpy as np
 import re
 import shutil
-#from matplotlib import pyplot as plt
-#import cv2
-#import caffe
-# import DIH_test
+import socket
 
+# Set cpu/gpu settings
 def set_gpu_cpu(gpu_enabled, cpu_enabled):
     scene = bpy.context.scene
     scene.cycles.device = 'GPU'
@@ -51,10 +45,11 @@ def set_gpu_cpu(gpu_enabled, cpu_enabled):
             print('Activating cpu', device)
             device.use = cpu_enabled
             print(cpu_enabled)
-
+            
+# set render settings
 def set_render_setings(render_engine,samples):
-    bpy.context.scene.render.engine = 'CYCLES' #BLENDER_EEVEE/CYCLES
-    bpy.context.scene.eevee.taa_render_samples = 5
+    bpy.context.scene.render.engine = render_engine #BLENDER_EEVEE/CYCLES
+    bpy.context.scene.eevee.taa_render_samples = samples
     # bpy.context.scene.eevee.use_gtao = True
     # bpy.context.scene.eevee.gtao_distance = 0.6
     # bpy.context.scene.eevee.gtao_factor = 0.4
@@ -92,33 +87,10 @@ def set_render_setings(render_engine,samples):
     #bpy.context.scene.view_layers["View Layer"].use_pass_normal = True
     #bpy.context.scene.view_layers["View Layer"].use_pass_ambient_occlusion = True
 
+# this function is not currently in use. It can be called to render a singular frame with a single car of which the coordinates are specified as arguments for the script. 
 def render_car(filename,camera, zoom, loc_x, loc_y, loc_z, rot_x, rot_y, rot_z, scale):
 
-    #-------------------------------------------------set variables----------
-    #------------------------------------------------------via prompt input--
-
-    #vraag locatie car op via cmd
-        # camera = input("Geef gewenste camera: ")
-        # zoom = input("Geef gewenste zoom: ")
-        # loc_x = input("Geef gewenste x-coördinaat: ")
-        # loc_y = input("Geef gewenste y-coördinaat: ")
-        # loc_z = input("Geef gewenste z-coördinaat: ")
-        # rot_x = input("Geef gewenste x-rotatie: ")
-        # rot_y = input("Geef gewenste y-rotatie: ")
-        # rot_z = input("Geef gewenste z-rotatie: ")
-
-    #maak floats van de strings
-        # zoom = float(zoom)
-        # loc_x = float(loc_x)
-        # loc_y = float(loc_y)
-        # loc_z = float(loc_z)
-        # rot_x = float(rot_x)
-        # rot_y = float(rot_y)
-        # rot_z = float(rot_z)
-
-    #---------------------------------------------------via script args---
-
-
+   
     #zet de blender objects in een variable
     myObjects = bpy.data.objects
 
@@ -152,21 +124,6 @@ def render_car(filename,camera, zoom, loc_x, loc_y, loc_z, rot_x, rot_y, rot_z, 
 
 
 
-
-    # import matlab.engine
-    # eng = matlab.engine.start_matlab()
-    # eng.simple_script(nargout=0)
-    # eng.quit()
-
-# def create_composite(car_dir, background_dir):
-#     car = Image.open(car_dir)
-#     # car = cv2.resize(car,(512,512))
-#     background = Image.open(background_dir)
-#
-#     background.paste(car, (0, 0), car)
-#     #background.show('composite', background)
-#     background.save("C:/Users/yves/Documents/Academiejaar2019-2020/Masterproef/IMAGE_COMPOSITION/blender/results/composites/test.png")
-
 def main():
     import sys       # to get command line args
     import argparse  # to parse options for us and print a nice help message
@@ -190,6 +147,12 @@ def main():
 
     # Example utility, add some text and renders or saves it (with options)
     # Possible types are: string, int, long, choice, float and complex.
+    
+    parser.add_argument(
+        "-m", "--mode", dest="mode", type=str, required=False,
+        help="Specify here if you want to run in \"fast\" mode or \"normal\" mode",
+    )
+    
     parser.add_argument(
         "-fn", "--file_name", dest="file_name", type=str, required=False,
         help="This is the filename of the result",
@@ -220,6 +183,11 @@ def main():
         help="This value will determine whether the cpu will be used to render",
     )
 
+    parser.add_argument(
+        "-ren", "--render_engine", dest="render_engine", type=str, required=False,
+        help="This is the filename of the result",
+    )
+    
     parser.add_argument(
         "-c", "--camera", dest="camera", type=str, required=False,
         help="This value will determine the zoom of the camera lens",
@@ -260,116 +228,106 @@ def main():
         help="This value will determine the rotation around the z-as of the car",
     )
 
-    # parser.add_argument(
-    #     "-s", "--save", dest="save_path", metavar='FILE',
-    #     help="Save the generated file to the specified path",
-    # )
-    # parser.add_argument(
-    #     "-r", "--render", dest="render_path", metavar='FILE',
-    #     help="Render an image to the specified path",
-    # )
 
-    args = parser.parse_args(argv)  # In this example we won't use the args
-
+    args = parser.parse_args(argv)
 
 
     if not argv:
-        #print("warning: no arguments were given, taking default values.")
+        print("warning: no arguments were given, taking default values.")
         parser.print_help()
-        #return
+        
+    if not args.mode:
+        print("warning: --mode=<str> not specified, using normal mode by default.")
+        args.mode = "normal"
 
     if not args.file_name:
-        # print("warning: --file_name=<str> not specified, using "test_rover" by default.")
+        print("warning: --file_name=<str> not specified, using test_rover by default.")
         args.file_name = "test_rover"
         
     if not args.car_type:
-        # print("warning: --car_type=<strl> not specified, using rangerover by default.")
+        print("warning: --car_type=<strl> not specified, using rangerover by default.")
         args.car_type = "rangerover"
         
     if not args.blending_method:
-        # print("warning: --blending_method=<str> not specified, using Deep Image Harmonization by default.")
+        print("warning: --blending_method=<str> not specified, using Deep Image Harmonization by default.")
         args.blending_method = "DIH"
 
     if not args.gpu_enable:
-        #print("warning: --gpu=<bool> not specified, gpu enabled by default.")
+        print("warning: --gpu=<bool> not specified, gpu enabled by default.")
         args.gpu_enable = False
     else: args.gpu_enable = True
 
     if not args.cpu_enable:
-        #print("warning: --cpu=<bool> not specified, cpu enabled by default.")
+        print("warning: --cpu=<bool> not specified, cpu enabled by default.")
         args.cpu_enable = False
     else: args.cpu_enable = True
+        
+    if not args.render_engine:
+        print("warning: --cpu=<bool> not specified, cpu enabled by default.")
+        args.render_engine= "CYCLES"
 
     if not args.camera:
         print("Warning: --camera=\"cameraname\" not specified, choosing default camera.")
-        #parser.print_help()
         args.camera = "Camera"
-        #return
 
     if not args.zoom:
         print("Warning: --zoom=<some_value> not specified, choosing default zoom of 50.")
-        # parser.print_help()
         args.zoom = 50
-        # return
 
     if not args.x_loc:
         print("Warning: --x_loc=<some_value> not specified, choosing default x-coordinate of 0.")
-        # parser.print_help()
         args.x_loc = 0
-        # return
+
     if not args.y_loc:
         print("Warning: --y_loc=<some_value> not specified, choosing default y-coordinate of 0.")
-        # parser.print_help()
         args.y_loc = 0
-        # return
+
     if not args.z_loc:
         print("Warning: --z_loc=<some_value> not specified, choosing default z-coordinate of 0.")
-        # parser.print_help()
         args.z_loc = 0
 
     if not args.x_rot:
         print("Warning: --x_rot=<some_value> not specified, choosing default x-rotation of 0.")
-        # parser.print_help()
         args.x_rot = 0
-        # return
+
     if not args.y_rot:
         print("Warning: --y_rot=<some_value> not specified, choosing default y-rotation of 0.")
-        # parser.print_help()
         args.y_rot = 0
-        # return
+
     if not args.z_rot:
         print("Warning: --z_rot=<some_value> not specified, choosing default z-rotation of 0.")
-        # parser.print_help()
         args.z_rot = 0
-        # return
 
-    print(args.gpu_enable)
-    print(args.cpu_enable)
+
+    
     # Set gpu/cpu
     set_gpu_cpu(args.gpu_enable,args.cpu_enable)
+    
     # Set render options
-    set_render_setings("CYCLES",20)
+    set_render_setings(args.render_engine,5)
 
+    # Collect all files in the tracklet directory
     result_path = args.out_folder
     tracklet_path = "tracklets_labels/"
     filenames = sorted(glob.glob(tracklet_path + '*.txt'))
     framecount = 0;
 
-    #start frame
+    # Loop over all files in the tracklet directory, each file corresponds to a frame
     for filename in filenames:
         print()
         print()
         print("Processing frame: " + str(framecount))
         print(filename)
         filepath = 'blender_output/'+ args.car_type + '/' + '0000'+filename.split('/')[1].split('.')[0]+'.png'
-        #read tracklet information
+        
+        # Only set cars if the file is not empty
         if stat(filename).st_size != 0:
 
             f = open(filename,"r")
             f1 = f.readlines()
             carcount = 0;
             
-            # set the car for each tracklet
+            # Set a car for each tracklet file
             for k in range(0,len(f1)):      #for 1 car per frame change len(f1) to 0
                 carcount=carcount+1
                 print("setting up car " + str(carcount) +" with tracklet data:")
@@ -386,19 +344,8 @@ def main():
                 ty = float(arguments[12])
                 tz = float(arguments[13])
                 rz = float(arguments[14])
-
-                #2D settings
                 
-                
-                # if (args.car_type == "rangerover"):
-                #     scale = 0.309/73.52367*sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))
-                #     if ((y2-y1)/(x2-x1) <0.6):
-                #         scale = scale * (y2-y1)/(x2-x1) *1.6
-                # if (args.car_type != "rangerover"):
-                #     scale = 0.324/73.52367*sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))
-                #     if ((y2-y1)/(x2-x1) <0.6):
-                #         scale = scale * (y2-y1)/(x2-x1) *1.6
-                
+                # Calibration from 2D bounding boxes to 3D blender coordinates
                 scale = 0.309/73.52367*sqrt((x2-x1)*(x2-x1)+(y2-y1)*(y2-y1))
                 if ((y2-y1)/(x2-x1) <0.6):
                          scale = scale * (y2-y1)/(x2-x1) *1.6
@@ -410,8 +357,7 @@ def main():
                 z_rot = rz
                 camera_zoom = 22
                 
-                
-
+                # Our blender file has 6 cars of each type at the ready, if more are needed they should be created. 
                 if (k<=5):
                     #assign a car
                     carname = args.car_type+str(k)
@@ -432,15 +378,11 @@ def main():
                 car.location = Vector((x_loc, y_loc, z_loc))
                 car.rotation_euler = (x_rot, y_rot, z_rot)
                 car.scale = (scale, scale, scale)
-                #if (args.car_type != "rangerover"):
-                    #car.location[2] = -y2*0.008052+car.dimensions[2]/2*car.scale[2]
-                # print("dimension = "+str(car.dimensions[2]))    
-                # print("car location = "+str(car.location[2]))
 
-            #render
+            # the cars are set, now we render the scene
             print()
             print("Rendering...")
-            ## redirect output to log file
+            ## redirect output to log file to limit the output to terminal
             logfile = 'blender_render.log'
             open(logfile, 'a').close()
             old = os.dup(1)
@@ -456,13 +398,14 @@ def main():
             os.close(old)
             print("frame rendered!")
             
-        
+            # save the render result
             bpy.data.images['Render Result'].save_render(filepath=filepath)
             print()
             print("frame saved")
 
             print()
             print("cleaning up...")
+            # clean the scene
             # remove cars from frame
             for i in range(0,5):
                 bpy.data.objects['rangerover'+str(i)].location = (0, -2, 0)
@@ -484,35 +427,40 @@ def main():
 
             print("done!")
            
-            
+            # call the desired harmonization script (GP or DIH & normal or fast)
             print()
-            if (args.car_type != "pink"):
-                print("Harmonizing...")
-                if (args.blending_method=="GP"):
-                    print("Harmonizing using GP-GAN...")
-                    os.system('python "GPGAN_test.py" --src_image=%s --car_type=%s' % (filepath,args.car_type))
+            print("Harmonizing...")
+            if (args.blending_method=="GP"):
+                print("Harmonizing using GP-GAN...")
+                if (args.mode=="normal"):
+                    os.system('python "GPGAN.py" --src_image=%s --car_type=%s' % (filepath,args.car_type))
+                else: 
+                    sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+                    sock.settimeout(5)
+                    sock.connect(('localhost',9999))
+                    sock.send(filepath.encode())
+                   
+            else:
+                print("Harmonizing using Deep Image Harmonization...")
+                if (args.mode=="normal"):
+                    os.system('python "DIH.py" %s %s' % (filepath,args.car_type))
                 else:
-                    print("Harmonizing using Deep Image Harmonization...")
-                    os.system('python "DIH_test.py" %s %s' % (filepath,args.car_type))
-                    #os.system('python "Main.py" %s %s' % (id, value))
-
+                    sock = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
+                    sock.settimeout(5)
+                    sock.connect(('localhost',9999))
+                    sock.send(filepath.encode())
+                    
             print("Harmonizing complete!")
             print()
             
-        else:
-            if (args.blending_method=="GP"):
-                print("No cars in this frame...")
-                #print("harmonizing with empty frame...")
-                #img = zeros([375,1242,3])
-                #os.system('python "GPGAN_test.py" --src_image=%s' % (filepath))
-                #shutil.copy('original/'+filepath.split('/')[1], filepath, *, follow_symlinks=True)
-            else:
-                print("No cars in this frame...")
-                #print("copying original frame...")
-                #shutil.copy('original/'+filepath.split('/')[1], filepath, *, follow_symlinks=True)
-            
+        # if the tracklet file was empty, no cars were set and no rendering was done    
+        else: 
+            print("No cars in this frame...")
             
         framecount = framecount + 1
+        
+    # rendered all frames
+    sock.close()
     print("done")
 
 if __name__ == "__main__":
