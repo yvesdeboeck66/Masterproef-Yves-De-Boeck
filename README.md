@@ -103,9 +103,8 @@ To run R-FCN on the generated images, follow the following steps:
 
 4) in ./validation/py-R-FCN/tools/ run the following commands
 
-`matplotlib inline` \ /
-`python rfcn.py` /
-`git clone ` /
+`matplotlib inline`  
+`python rfcn.py`
 
 5) The images with the bounding boxes drawn on them will be saved in ./validation/py-R-FCN/tools/results/. The files containing a list of all detections are saved to ./validation/py-R-FCN/tools/results/. 
 
