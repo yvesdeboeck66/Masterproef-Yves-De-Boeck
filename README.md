@@ -1,21 +1,48 @@
 # Masterproef Yves De Boeck
- This repository contains the source code for my masterthesis "Improving sensor simulation with artificial intelligence". To accurately test and validate algorithms used in autonomous vehicles, numerous testvehicles and very large datasets are required resulting in safety and financial issues. For this reason, it is desired to train these high data demanding machine-learning algorithms at least partly in simulation. With the development of simulators on the rise, the need for viable real-time synchronization between simulated and real vehicles increases. This synchronization can be achieved by injecting simulated vehicles into the sensor stream of real vehicles. While research using laser rangefinders to accommodate this goal exists, no implementation for the camera sensor has been proposed, given the extra complexities it brings with it. When the manipulated camera frames are not realistic enough, performance loss will occur when moving the trained models from simulation to real-world environment. For this reason, I propose a novel methodology for injecting the presence of simulated vehicles into the camera stream of real vehicles, using deep learning networks to optimize the realism of the resulting frames. 
+ This repository contains the source code for my masterthesis "Improving sensor simulation with artificial intelligence". I propose a novel methodology for injecting the presence of simulated vehicles into the camera stream of real vehicles, using deep learning networks to optimize the realism of the resulting frames. This code allows you to paste cars on background images according to your specified coordinates and orientation and consequently harmonize these frames using one of two deep learning harmonization techniques. I also validate the realism of these frames by comparing realism scores outputted by a CNN and by submitting the the frames to two object detection systems. 
  
-  
-
+## Techniques used
+* Deep image Harmonization - harmonization technique
+      github: https://github.com/wasidennis/DeepHarmonizationhttps://github.com/wasidennis/DeepHarmonization
+      paper: https://arxiv.org/pdf/1703.00069.pdf
+      
+* GP-GAN - harmonization technique
+      github:  https://github.com/wuhuikai/GP-GAN
+      paper: https://arxiv.org/pdf/1703.07195.pdf
+      
+* RealismCNN - realism evaluation technique
+      github: https://github.com/junyanz/RealismCNN
+      paper: https://arxiv.org/pdf/1510.00477.pdf
+      
+* YOLOv3 - object detection system
+      github: https://github.com/YunYang1994/tensorflow-yolov3
+      paper: https://pjreddie.com/media/files/papers/YOLOv3.pdf
+      
+* R-FCN - object detection system
+      github: https://github.com/YuwenXiong/py-R-FCN
+      paper: https://arxiv.org/pdf/1605.06409.pdf      
+ 
 ## Requirements
+* Blender2.8 for rendering
+* CAFFE for Deep Image Harmonization
+* Matlab to make use of the RealismCNN evaluation technique. 
+ 
+All tests were run on Ubuntu18.03 using a AMD Ryzen Threadripper 3970X 32-Core Processor and NVIDIA TITAN Xp GPU. 
 
 ## Run app
 Follow the following steps to run the app: 
- 1) specify location and orientation of desired cars per frame using a tracklet file per frame and put these files in /tracklets_labels
+ 1) specify location and orientation of desired cars per frame using a label file per frame and put these files in /tracklets_labels
+ the tracklets files should containe 1 line per car and have the following format 
+ "Car -1 -1 -10 x1 y1 x2 y2 hight width length rotationx rotationy rotationz"
+ if you are using kitti recordings you can make use of the matlab script "tracklet_to_label.m" under ./tools/ for extracting the tracklet to the desired label files. 
  2) specify background frames and put them in /original
  3) unzip the "blender.zip" file in ./
  (4) if your are using fast mode run the script of the desired harmonization technique first by 
  
- * `python DIH_fast.py` - For Deep Image Harmonization
- * `python GPGAN_fast.py` - For GP-GAN blending
+   `python DIH_fast.py` - For Deep Image Harmonization
+   `python GPGAN_fast.py` - For GP-GAN blending
  
- 3) run the app using the following command: 
+ 5) run the app using the following command: 
  
  `sudo [/path/to/blender2.82/blender] -b 'kitti.blend' -P 'config.py' -- -bm [harmonization method] -ct [car type] -m [mode] `
  
@@ -35,9 +62,9 @@ Follow the following steps to run the app:
 
 Use the `--help` argument to get a complete list of possible arguments
 
+6) Results will be written to ./[blending_method]_output/[car_type]/ for normal mode and ./[blending_method]_output/fastmode/ for fast mode. If you used normal mode, the composites will also have been written to ./composites/[car_type]/ before harmonization. 
 
 
- 
 ## Validate 
+To validate the realism of the generated frames you can run RealismCNN using the matlab function 
 
-sudo /root/source/notebooks/total_process/blender2.82/blender -b 'kitti_bg_2D_test.blend' -P 'config.py' -- -bm 'GP' -ct 'redrace' 
