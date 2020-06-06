@@ -115,4 +115,10 @@ To determine the Average Precision according to the Pascal VOC challenge follow 
 
 1) in ./validation download [this](https://github.com/rafaelpadilla/Object-Detection-Metrics.git) repository
 
-2) in ./validation/Object-Detection-Metrics/detections, place the detection files you created with YOLOv3 or R-FCN. In ./validation/Object-Detection-Metrics/groundtruths/ place the label files of the original images. ATTENTION: they require a different format than that of the label file we use for blender. If you are testing on KITTI recordings you can make use of the tracklet_to_label2.m function in ./tools/ to automatically extract the right groundtruth label files from the kitti tracklet xml files. 
+2) in ./validation/Object-Detection-Metrics/detections, place the detection files you created with YOLOv3 or R-FCN. In ./validation/Object-Detection-Metrics/groundtruths/ place the label files of the original images. ATTENTION: they require a different format than that of the label file we use for blender. If you are testing on KITTI recordings you can make use of the tracklet_to_label2.m function in ./tools/ to automatically extract the right groundtruth label files from the kitti tracklet xml files.
+
+## Other useful scripts
+In ./Tools you can find some other useful scripts, the most important are:
+* frame2video.py - Convert your frames to a video file 
+* makeComposites.m - If you don't have access to your harmonization scripts or you don't have a CAFFE installation, you can still run the application and convert the frames that are saved in ./blender_output to composites using this script. 
+* addZerosToTrackletName.m - The tracklet_2_label script outputs filenames that have 4 zero's less than the original kitti frame names. This won't work for the implementation of the AP calculation, since groundtruth detections should have the same filename as the data frames. This file automatically adds all 4 zero's to all filenames in a folder. 
